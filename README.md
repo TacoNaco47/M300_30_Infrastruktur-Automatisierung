@@ -13,6 +13,7 @@ erarbeitet und vermittelt wichtige Theorieinhalte zum Thema Dynamische Infrastru
 | Datum         | Änderungen                                                                         |  Kürzel  |
 | ------------- |:-----------------------------------------------------------------------------------| :------: |
 | 21.10.2018    | Erstellung der Datei & erste Änderungen eingeführt                                 |    MBL   |
+| 31.10.2018    | Kleiner Ausbesserungen vorgenommen                                                 |    MBL   |
 |      ...      | ...                                                                                |    ...   |
 
 #### Voraussetzungen
@@ -157,15 +158,16 @@ Die Ruby-Anwendung dient als Wrapper (engl. Verpackung, Umschlag) zwischen Virtu
 Vagrant wird über die Kommandozeile (CLI) bedient.
 
 Die wichtigsten Befehle sind:
+
 | Befehl                    | Beschreibung                                                      |
 | ------------------------- | ----------------------------------------------------------------- | 
 | `vagrant init`            | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile |
 | `vagrant up`              |  Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile |
-| `vagrant ssh`             | Baut eine SSH-Verbindung zur gewünschten VM auf                                       |
-| `vagrant status`          | Zeigt den aktuellen Status der VM an                                                  |
-| `vagrant port`            | Zeigt die Weitergeleiteten Ports der VM an                                            |
-| `vagrant halt`            | Stoppt die laufende Virtuelle Maschine                                                |
-| `vagrant destroy`         | Stoppt die Virtuelle Maschine und zerstört sie.                                       |
+| `vagrant ssh`             | Baut eine SSH-Verbindung zur gewünschten VM auf                   |
+| `vagrant status`          | Zeigt den aktuellen Status der VM an                              |
+| `vagrant port`            | Zeigt die Weitergeleiteten Ports der VM an                        |
+| `vagrant halt`            | Stoppt die laufende Virtuelle Maschine                            |
+| `vagrant destroy`         | Stoppt die Virtuelle Maschine und zerstört sie.                   |
 
 Weitere Befehle unter: https://www.vagrantup.com/docs/cli/
 
@@ -305,7 +307,7 @@ Die Konfiguration erfolgt im JSON Format. Hier ein Beispiel:
         " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ubuntu-preseed.cfg<wait>",
       ],
         }
-      ]
+      ],
       "post-processors": [
         {
           "type": "vagrant",
