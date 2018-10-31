@@ -13,7 +13,7 @@ erarbeitet und vermittelt wichtige Theorieinhalte zum Thema Dynamische Infrastru
 | Datum         | Änderungen                                                                         |  Kürzel  |
 | ------------- |:-----------------------------------------------------------------------------------| :------: |
 | 21.10.2018    | Erstellung der Datei & erste Änderungen eingeführt                                 |    MBL   |
-| 31.10.2018    | Kleiner Ausbesserungen vorgenommen                                                 |    MBL   |
+| 31.10.2018    | Kleinere Ausbesserungen vorgenommen                                                |    MBL   |
 |      ...      | ...                                                                                |    ...   |
 
 #### Voraussetzungen
